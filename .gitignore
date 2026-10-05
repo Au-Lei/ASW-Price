@@ -1,0 +1,6 @@
+node_modules
+dist
+.npm-cache
+.preview-build
+.DS_Store
+*.local
