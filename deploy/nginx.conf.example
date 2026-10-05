@@ -1,0 +1,17 @@
+# Replace __SERVER_NAME__ with the domain or public IP before enabling this site.
+# Point /var/www/asw-price/current at the extracted dist directory.
+server {
+    listen 80;
+    server_name __SERVER_NAME__;
+    root /var/www/asw-price/current;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+
+    location /assets/ {
+        try_files $uri =404;
+        add_header Cache-Control "no-store";
+    }
+}
