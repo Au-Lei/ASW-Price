@@ -3,7 +3,7 @@ import { readFileSync, statSync } from 'node:fs'
 import { resolve, extname, sep } from 'node:path'
 
 const root = resolve('dist')
-const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png' }
+const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.mp4': 'video/mp4' }
 const port = Number(process.env.PORT || 5173)
 createServer((req, res) => {
   try {

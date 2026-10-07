@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>使用说明 · ASW 智能海运报价</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#f7f8f6;color:#29434c;font:15px/1.8 system-ui,"Microsoft YaHei",sans-serif}header{border-bottom:1px solid #e2e8e3;background:#fff}header>div{max-width:880px;margin:auto;padding:20px 24px;display:flex;justify-content:space-between;align-items:center}a{color:#285f57;text-underline-offset:4px}a:focus-visible{outline:3px solid #699c8e;outline-offset:5px}.brand{font-weight:650;letter-spacing:2px}main{max-width:880px;margin:42px auto;padding:0 24px 40px}h1{font-size:30px;line-height:1.4;margin:0 0 10px}h2{font-size:19px;margin:0 0 14px}p{margin:0 0 12px}.intro{color:#6d838a}.section{background:#fff;border:1px solid #e1e8e2;border-radius:14px;padding:24px;margin-top:20px}ul,ol{padding-left:22px;margin:0}li{margin:7px 0}code{padding:2px 7px;background:#edf3ef;border-radius:4px;font-size:14px}.notice{background:#eef3ef;padding:17px 20px;border-radius:10px;margin-top:20px;font-size:13px;color:#516c72}.return{display:inline-block;background:#285f57;color:#fff;padding:10px 20px;border-radius:8px;text-decoration:none;margin-top:24px;font-size:14px}@media(max-width:600px){main{margin-top:28px;padding:0 18px 30px}h1{font-size:26px}.section{padding:20px}body{font-size:14px}header>div{padding:18px}}
+  </style>
+</head>
+<body>
+  <header><div><span class="brand">ASW SMART FREIGHT</span><a href="/">返回入口</a></div></header>
+  <main>
+    <h1>演示版使用说明</h1>
+    <p class="intro">同一个入口，体验客户询价与管理员工作台。所有业务数据均为模拟数据。</p>
+    <section class="section" aria-labelledby="customer-title">
+      <h2 id="customer-title">客户可以演示什么？</h2>
+      <ol>
+        <li>点击“客户入口”，无需登录；选择港口、柜型、柜量和出货日期。</li>
+        <li>选择综合推荐、价格优先或时效优先，点击“查看运输方案”。</li>
+        <li>比较船公司、总价、航程、预计开船 / 到港日期与报价有效期；查看方案详情。</li>
+        <li>选择方案，填写演示客户名称，生成报价单。</li>
+        <li>在“我的报价”搜索、查看记录，打印报价单或通过浏览器另存为 PDF。</li>
+      </ol>
+      <p style="margin:14px 0 0;color:#647e85;font-size:13px">演示航线：上海 → 洛杉矶、宁波 → 长滩、深圳 → 汉堡。支持 20GP、40GP、40HQ。</p>
+    </section>
+    <section class="section" aria-labelledby="admin-title">
+      <h2 id="admin-title">管理员可以演示什么？</h2>
+      <p>点击“管理员登录”：账号 <code>demo</code>，密码 <code>ASW2026</code>。</p>
+      <ul>
+        <li><strong>数据工作台与待办：</strong>查看合同、报价统计，处理待核对合同、临期合同及待确认报价。</li>
+        <li><strong>合同管理：</strong>模拟导入、核对并启用合同，切换启用状态。</li>
+        <li><strong>有效期管理：</strong>调整合同到期日，影响询价可用方案。</li>
+        <li><strong>账号与权限：</strong>展示角色、新增演示账号、启用或停用账号。</li>
+        <li><strong>报价规则与操作记录：</strong>调整加价比例、报价有效天数，查看操作日志。</li>
+      </ul>
+    </section>
+    <section class="section" aria-labelledby="walkthrough-title">
+      <h2 id="walkthrough-title">推荐演示顺序（约 3 分钟）</h2>
+      <p>客户询价 → 对比并生成报价单 → 返回入口 → 管理员登录 → 待办中心确认该报价 → 调整报价规则 → 返回客户入口重新询价。</p>
+      <p style="margin-bottom:0;color:#647e85;font-size:13px">建议先用上海 → 洛杉矶、40HQ、2026-10-18 演示。若无方案，请检查所选日期是否处于已启用、已核对合同的有效期内。</p>
+    </section>
+    <aside class="notice"><strong>演示边界：</strong>数据仅保存在当前浏览器，刷新可保留，不支持跨设备同步或真实客户隔离。合同上传与解析为模拟，不读取真实文件；新增账号不能实际登录；“智能推荐”为模拟规则排序，并非实时 AI 或船期查询。管理员登录不提供真实安全隔离。请勿输入真实合同、敏感客户信息，报价不可用于真实交易或订舱。</aside>
+    <a class="return" href="/">返回入口，开始体验 →</a>
+  </main>
+</body>
+</html>
